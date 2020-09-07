@@ -12,7 +12,7 @@ enum AnimationProcess {
     func startAngle() -> Double {
         switch self {
         case .during:       return Double.pi_4
-        case .begin, .skip: return 0
+        case .begin, .skip: return -Double.pi_2
         }
     }
 

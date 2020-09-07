@@ -76,7 +76,7 @@ open class SpringIndicator: UIView {
 
     private func makeRotationPath(for process: AnimationProcess) -> UIBezierPath {
         let start = CGFloat(process.startAngle())
-        let end = CGFloat(Double.pi + Double.pi_2) + start
+        let end = CGFloat(Double.pi + Double.pi_2)
         let center = CGPoint(x: bounds.width / 2, y: bounds.height / 2)
         let radius = max(bounds.width, bounds.height) / 2
 
